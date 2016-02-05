@@ -1,0 +1,4 @@
+Django>=1.4,<1.9
+isodate>=0.4.7,<0.6
+git+https://github.com/tobami/codespeed@eb2ae66a1e9512b5a9150adafd2aa31c741b142c#egg=codespeed
+
