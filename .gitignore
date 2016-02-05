@@ -1,0 +1,6 @@
+*.pyc
+*.db
+sample_project/repos/*
+override
+build
+dist
