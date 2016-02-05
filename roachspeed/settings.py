@@ -63,7 +63,7 @@ if DEBUG:
                                  (request.build_absolute_uri(),
                                   traceback.format_exc()))
     # And add it to the middleware classes
-    MIDDLEWARE_CLASSES += ('sample_project.settings.LogUncatchedErrors',)
+    MIDDLEWARE_CLASSES += ('roachspeed.settings.LogUncatchedErrors',)
 
     # set shown level of logging output to debug
     logging.basicConfig(level=logging.DEBUG)
